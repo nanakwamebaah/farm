@@ -1,0 +1,23 @@
+
+<nav id="nav" class="navbar navbar-expand-lg bg-light navbar-light py-2 px-1 " style="margin-top:1.4rem;">
+    <a href="#" class="navbar-brand"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ms-auto" >   
+            <li class="nav-item">
+                <a href="#questions" class="nav-link"><span>Hello, {{request.user}}</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <img src="Logo.png" alt="Avatar Logo" style="width: 25px" class="rounded-pill">
+                </a>
+            </li>
+        </ul>
+    </div>  
+</nav>

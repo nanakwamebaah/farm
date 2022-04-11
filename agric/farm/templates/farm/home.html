@@ -1,0 +1,25 @@
+{% extends 'farm/main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center-sm-start">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+                <h1>Become a <span class="text-warning">Farmer</span></h1>
+                <p class="lead my-4">
+                    we focus on the teaching our students the fundamentals of the 
+                    latest and greatest technologies to prepare them for their first
+                    dev role
+                </p>
+                <button class="btn btn-primary btn-lg"> start Farming</button>
+            </div>
+            <img  class="img-fluid w-50 d-none d-sm-block" src="{% static 'img/farm.jpeg' %}" alt=""> 
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
